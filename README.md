@@ -35,16 +35,11 @@ This project provides a straightforward interface to showcase a restaurant menu.
    git clone git@github.com:ahmedabdullahi12/phase1-project.git
    ```
 
-2. **Install Dependencies:**
+
+2. **Start the JSON Server:**
 
    ```bash
-   npm install
-   ```
-
-3. **Start the JSON Server:**
-
-   ```bash
-   npx json-server db.json
+   json-server --watch db.json
    ```
 
 4. **Open the Application:**
