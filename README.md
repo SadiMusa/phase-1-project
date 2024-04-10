@@ -42,7 +42,7 @@ This project provides a straightforward interface to showcase a restaurant menu.
    json-server --watch db.json
    ```
 
-4. **Open the Application:**
+3. **Open the Application:**
 
    Open the `index.html` file in your preferred web browser.
 
