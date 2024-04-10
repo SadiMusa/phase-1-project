@@ -46,7 +46,6 @@ function displayMenuDetails(menuItem) {
         </div>
     `;
 
-    const buyButton = document.querySelector("#btn-buy");
     buyButton.addEventListener("click", () => {
         if (menuItem.qnty > 0) {
             const updatedItem = { ...menuItem, qnty: menuItem.qnty - 1 };
